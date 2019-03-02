@@ -1,0 +1,162 @@
+
+
+.container{
+	display:flex;
+	justify-content: space-between;
+	width: 900px;
+}
+
+.game_field{
+	width: 500px;
+	padding: 30px;
+	background-color:cyan;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.counter{
+	width: 250px;
+	height: 250px;
+	background: green;
+	border-radius: 100%;
+	margin: 10px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.counter span{
+	font-size:100px;
+	color:yellow;
+}
+
+.signs_panel {
+	margin: 30px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.signs_panel span {
+	background: red;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	margin: 0 30px;
+	border-radius: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    width: 200px;
+	background:brown;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	border:none;
+	border-radius: 4px;
+	padding: 5px 0;
+}
+
+.results_wrap {
+	width: 300px;
+
+}
+
+.result{
+   width: 300px;
+   background: coral;
+   border-radius:4px 4px 0 0;
+   text-align: center;
+   padding-bottom:30px;
+
+}
+
+h1{
+	margin-top: 0;
+	padding-top:10px;
+}
+
+p{
+	font-weight:bold;
+}
+
+.points{
+	position: relative;
+	line-height: 100px;
+}
+
+.gamer_1{
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	border-radius: 4px;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.gamer_2{
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	border-radius: 4px;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.gamer_1_count,.gamer_2_count{
+	font-size:40px;
+	color:green;
+	position: absolute;
+	top:0;
+	right:40px;
+}
+
+.mode{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    background:#8080FF;
+    border-radius: 0 0 4px 4px;
+    justify-content: center;
+
+
+}
+
+
+.again,.reset{
+	border: none;
+	color:#fff;
+	height: 40px;
+	border-radius: 4px;
+	width: 100px;	
+	cursor:pointer;
+}
+
+.again {
+	background:blue;
+	margin-right: 20px;	
+}
+
+.reset{
+	background:red;
+}
+
+.bg{
+	background-color:yellow !important;
+}
+
+
+.sizeImg{
+	width: 140px;	
+	height:140px;
+	display: block;
+}

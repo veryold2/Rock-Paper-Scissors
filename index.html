@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Game</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="game_field">
+			<div class="counter">
+				<span>3</span>
+			</div>
+			<div class="signs_panel">
+				<span id='rock' class="sign"><img src="img/rock.png" alt='img'></span>
+				<span id='scissors' class="sign"><img src="img/sciss.png" alt='img'></span>
+				<span id='paper' class="sign"><img src="img/paper.png" alt='img'></span>
+			</div>
+			<button class="btn">Start</button>
+		</div>
+		<div class="results_wrap">
+			<div class="result">
+				<h1>Result:</h1>
+				<p>Сom:</p>
+		        <div class="points"><div class="gamer_1"></div><span class="gamer_1_count">0</span></div>
+				<p>You:</p>
+				<div class="points"><div class="gamer_2"></div><span class="gamer_2_count">0</span></div>
+			</div>
+			<div class="mode">
+				<button class="again">Again</button><button class="reset">Reset points</button>
+    		</div>
+		</div>
+	</div>
+<script src="js/main.js"></script>
+</body>
+</html>
